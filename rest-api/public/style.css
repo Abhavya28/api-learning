@@ -1,0 +1,16 @@
+h1{
+ color:maroon;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.post{
+    background-color: blanchedalmond;
+}
+
+.username{
+    font-style: italic;
+    color: red;
+}
