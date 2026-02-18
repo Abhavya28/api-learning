@@ -20,7 +20,7 @@ The goal of this repository is to build a strong understanding of how frontend a
 
 ## Projects & Folders
 
-### rest-api
+### 1. rest-api
 - Basic REST API setup using Node.js and Express
 - Understanding API routes and JSON responses
 - Practicing request handling and response status codes
