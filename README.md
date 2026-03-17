@@ -25,7 +25,12 @@ The goal of this repository is to build a strong understanding of how frontend a
 - Understanding API routes and JSON responses
 - Practicing request handling and response status codes
 
-(More folders and practice projects will be added as learning progresses.)
+### 2. fetch-axios-dashboard
+- Frontend project built with React
+- API consumption using Fetch API
+- API consumption using Axios
+- Managing loading and error states
+- Clean separation of API logic and UI components
 
 ---
 
@@ -45,8 +50,8 @@ This repository is created as part of my internship learning journey to:
 - Node.js
 - Express
 - Fetch API
-- Axios (upcoming)
-- React (upcoming)
+- Axios 
+- React
 
 ---
 
