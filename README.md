@@ -32,6 +32,12 @@ The goal of this repository is to build a strong understanding of how frontend a
 - Managing loading and error states
 - Clean separation of API logic and UI components
 
+### 3. react-api-users
+- Frontend React projects focused on API learning
+- Projects included:
+  1. **UsersList** – Fetch users **on button click**, display in a responsive card grid, includes loading and error handling
+  2. **PostList** – Fetch posts **automatically on page load** from JSONPlaceholder API, displayed in a card layout
+
 ---
 
 ## Why this repository exists
