@@ -2,7 +2,7 @@ import Cookies from "js-cookie";
 import axios ,{ AxiosError, AxiosResponse } from "axios";
 
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://jsonplaceholder.typicode.com";
 
 
 const HttpMethods = {

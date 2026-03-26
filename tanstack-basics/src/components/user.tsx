@@ -1,12 +1,7 @@
 "use client"
 
-import { useUserData } from "../services/useService"
-
-type UserType = {
-    id: string;
-    name: string;
-    email: string;
-};
+import {useUserData } from "../services/userService"
+import type { User } from "../types";
 
 
 export default function User() {
@@ -15,7 +10,7 @@ export default function User() {
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error fetching user data</div>;
 
-    const users: UserType[] = data || [];
+    const users:User[] = data || [];
 
     return (
         <div className="min-h-screen bg-gray-100 p-6" >
@@ -27,7 +22,7 @@ export default function User() {
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {users.map((user: UserType) => (
+                {users.map((user: User) => (
                     <div
                         key={user.id}
                         className="bg-white rounded-xl shadow-md p-4 flex flex-col items-center hover:shadow-lg transition-shadow"
