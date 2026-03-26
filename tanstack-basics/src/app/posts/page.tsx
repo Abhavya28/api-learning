@@ -1,9 +1,9 @@
-import SignupForm from '@/src/components/signupForm'
+import Posts from '@/src/components/posts'
 
 const page = () => {
   return (
     <div>
-      <SignupForm />
+        <Posts />
     </div>
   )
 }

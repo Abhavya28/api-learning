@@ -14,7 +14,7 @@ const HttpMethods = {
 };
 
 const http = axios.create({
-    baseURL: `${BASE_URL}/api`
+    baseURL: `${BASE_URL}`
 })
 
 

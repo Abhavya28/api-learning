@@ -39,9 +39,10 @@ export const useCreatePost = () => {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: createPost,
-    onSuccess: () =>
-      queryClient.invalidateQueries({
-        queryKey: ["posts"],
-      }),
+    onSuccess: (newPost) => {
+      queryClient.setQueryData(["posts"], (oldData: any) => {
+        return [newPost, ...(oldData || [])];
+      });
+    },
   });
 };

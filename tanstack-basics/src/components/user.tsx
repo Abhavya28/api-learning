@@ -4,7 +4,7 @@ import {useUserData } from "../services/userService"
 import type { User } from "../types";
 
 
-export default function User() {
+const User = () => {
     const { data, error, isLoading } = useUserData();
 
     if (isLoading) return <div>Loading...</div>;
@@ -13,7 +13,7 @@ export default function User() {
     const users:User[] = data || [];
 
     return (
-        <div className="min-h-screen bg-gray-100 p-6" >
+        <div className="min-h-screen p-6" >
 
             {/* Display users */}
             <div>
@@ -40,7 +40,7 @@ export default function User() {
             <div>
                 
             </div>
-            
         </div >
     )
 }
+export default User;
