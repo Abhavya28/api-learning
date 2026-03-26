@@ -37,6 +37,13 @@ The goal of this repository is to build a strong understanding of how frontend a
 - Projects included:
   1. **UsersList** – Fetch users **on button click**, display in a responsive card grid, includes loading and error handling
   2. **PostList** – Fetch posts **automatically on page load** from JSONPlaceholder API, displayed in a card layout
+ 
+### 4. tanstack-basics
+- Frontend built with Next.js
+- API fetching using TanStack Query
+- Handling data with useQuery and useMutation
+- Managing loading and error states
+- Basic cache management and updates
 
 ---
 
@@ -58,6 +65,8 @@ This repository is created as part of my internship learning journey to:
 - Fetch API
 - Axios 
 - React
+- Next.js
+- Tanstack Query
 
 ---
 
